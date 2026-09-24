@@ -25,14 +25,14 @@ Proyecto de Python que integra los contenidos de las semanas 5 y 6: colecciones,
 
 ## Instalación y ejecución
 
-Abre una terminal en la carpeta del proyecto y ejecuta:
+Se abre una terminal en la carpeta del proyecto y se ejecuta:
 
 ```bash
 python -m pip install -r requirements.txt
 python main.py
 ```
 
-También puedes ejecutar la aplicación con el comando de Flet:
+También se puede ejecutar la aplicación con el comando de Flet:
 
 ```bash
 flet run main.py
@@ -40,13 +40,13 @@ flet run main.py
 
 ## Uso
 
-1. Completa ID, nombre, precio y stock.
-2. Pulsa **Agregar** para registrar el producto.
-3. Escribe un ID o parte del nombre en el campo de búsqueda y pulsa **Buscar**.
-4. Pulsa **Listar todos** para volver a mostrar el catálogo completo.
-5. Para actualizar, carga el producto mediante la búsqueda o selecciónalo en la tabla, modifica sus datos y pulsa **Actualizar**.
-6. Para eliminar, carga el producto y pulsa **Eliminar**.
+1. Se completa ID, nombre, precio y stock.
+2. Pulsar **Agregar** para registrar el producto.
+3. Escribir un ID o parte del nombre en el campo de búsqueda y pulsar **Buscar**.
+4. Pulsar **Listar todos** para volver a mostrar el catálogo completo.
+5. Para actualizar, se carga el producto mediante la búsqueda o se selecciona en la tabla, se modifica sus datos y se pulsa **Actualizar**.
+6. Para eliminar, se carga el producto y se pulsa **Eliminar**.
 
 ## Nota
 
-Los productos se almacenan en memoria mientras la aplicación está abierta. Al cerrar la aplicación, los datos se reinician. El enunciado no exige persistencia en archivos o base de datos.
+Los productos se almacenan en memoria mientras la aplicación está abierta. Al cerrar la aplicación, los datos se reinician.
